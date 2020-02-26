@@ -1,3 +1,4 @@
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -28,5 +29,13 @@ public class ObjectEquality {
         fail("execption");
     }
 
+   @Ignore
+   @Test
+    public void ignoreTest(){
+        int a = 12;
+        int b = 78;
+        ignoreTest();
+
+   }
 
 }

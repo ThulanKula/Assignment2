@@ -1,5 +1,6 @@
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -32,4 +33,7 @@ public class ObjectEqualityTest {
        total = a + b;
     }
 
+    public void ignoreTest(int a, int b){
+        int total = a - b;
+    }
 }
